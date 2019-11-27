@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="main">
 <h1>Countries List</h1>
 <countries-list :countries='countries'></countries-list>
 <country-detail :country = 'selectedCountry'></country-detail>
@@ -36,4 +36,8 @@ export default {
 </script>
 
 <style lang="css" scoped>
+  .main {
+    display: flex;
+    align-content: space-around;
+  }
 </style>
